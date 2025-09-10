@@ -1,0 +1,143 @@
+/* Estilo geral */
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        to bottom,
+        #38a2e9 0%,        /* azul escuro no topo */
+        #4aa3e0 12%,       /* azul intermediário para suavizar */
+        #6dd5fa 25%,       /* azul claro */
+        #d9e9f9 60%,       /* azul muito claro, quase branco */
+        #f8fafc 100%       /* fundo branco */
+    );
+    color: #222;
+    text-align: center;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 700px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 32px 28px;
+    margin-bottom: 40px;
+    text-align: center; /* Conteúdo centralizado */
+}
+
+/* Cabeçalho */
+header {
+    background: rgba(52, 152, 219, 0.85); /* azul com transparência */
+    color: #fff;
+    padding: 40px 0 30px 0;
+    box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+}
+
+header h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    border: none;
+    padding-left: 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #34495e;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #34495e;
+    font-weight: 600;
+}
+
+/* Bloco de postagens */
+.post {
+    background: #f9fbfd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(52,152,219,0.07);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    transition: box-shadow 0.2s;
+    text-align: center;
+}
+
+.post:hover {
+    box-shadow: 0 6px 24px rgba(52,152,219,0.13);
+}
+
+/* Parágrafos */
+p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    color: #222;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fórmula */
+.formula {
+    font-family: 'Fira Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #ecf0f1;
+    border-left: 5px solid #3498db;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin: 24px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Imagens */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 24px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(52,152,219,0.09);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 24px 0 18px 0;
+    color: #888;
+    font-size: 1rem;
+    background: #f4f7fa;
+    margin-top: 40px;
+}
